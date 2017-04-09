@@ -1,12 +1,12 @@
-## This codebook describes the variables contained in the dataset 'allTheData.txt' 
+# This codebook describes the variables contained in the dataset 'allTheData.txt' 
 
-## Identifiers
+# Identifiers
 * Subject :: Test subject number  
 * DataType :: Test or Training data 
 * Activity :: Activity being conducted during data collection
 
-## Measurements
-# (Note: all measurements are in Standard Gravitational Units (g))
+# Measurements
+### (Note: all measurements are in Standard Gravitational Units (g))
 * tBodyAcc-mean()-X
 * tBodyAcc-mean()-Y
 * tBodyAcc-mean()-Z
