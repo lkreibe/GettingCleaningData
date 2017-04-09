@@ -73,4 +73,5 @@ allTheData <- rbind(testData, trainData)
 ## from the created data set, create a second data set with the average for 
 ## each variable for each activity and each subject; save to a file 
 groupedMeans <- aggregate(allTheData[,4:89], list(allTheData$Subject, allTheData$Activity), mean)
-fwrite(allTheData, file = "allTheData.txt", sep=" ")
+write.table(allTheData, file ="allTheData.txt", row.names = FALSE)
+
